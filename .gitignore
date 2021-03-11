@@ -1,0 +1,6 @@
+submissions/*.csv
+data/*.csv
+data/*.zip
+data/train_images
+data/test_images
+models/*.h5
