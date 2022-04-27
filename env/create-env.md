@@ -1,6 +1,9 @@
 ## Create ssh keys
 ssh-keygen -t rsa -b 2048 -C "Ubuntu-GPU-DS3"
 
+or if you already have ssh keys, copy them into ~/.ssh directory
+`chmod 400 ~/.ssh/id_rsa`
+
 ## Setup the conda environment
 ```bash
 conda create -n shopee-kaggle python=3.8
